@@ -3,7 +3,7 @@ import NetflixSeries from './components/NetflixSeries'
 
 const App = () => {
   return (
-    <div><NetflixSeries></NetflixSeries></div>
+    <section className='container'><NetflixSeries/></section>
   )
 }
 

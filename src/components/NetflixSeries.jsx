@@ -24,7 +24,7 @@ const NetflixSeries = () => {
     // </ul>
 
 
-    <ul>
+    <ul className='grid grid-three--cols'>
         {seriesData.map((curElem)=>{
        return <SeriesCard key = {curElem.id} curElem={curElem}/>
         })}
